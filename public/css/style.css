@@ -1,0 +1,59 @@
+body { 
+  position: relative; 
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  margin: 50px;
+  margin-top: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.scrollspy{ 
+  position: relative; 
+  height: 150px; 
+  margin-top: 10px; 
+  overflow: auto; 
+  overflow-y:scroll;
+  border: 1px solid #9099EE;
+  margin: 5px;
+}
+
+.card-body{
+  padding-top: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none ;
+  color:white;
+}
+
+a:hover {
+  color:white;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.form {
+  margin-top: 50px;
+}
+
+select {
+  width: 100px;
+}
+
+.day {
+  color: #666;
+}
+
+.return , .return:hover{
+  color: #555;
+}
